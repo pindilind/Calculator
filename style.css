@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background:rgba(255, 255, 255, 0.39);
+    margin: 0;
+}
+
+/* STOR CONTAINER/BAKGRUND */
+#container {
+    width: 1280px;
+    height: 610px;
+    background-color: rgba(128, 128, 128, 0.219);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+/* BAKGRUND MINIRÄKNARE  */
+#calculator {
+    display: flex;
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 4px 4px rgba(97, 94, 94, 0.932);
+    margin-top: 60px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* RUTA SOM VISAR SIFFROR */
+#input {
+    display: flex;
+    height: 100px;
+    width: 290px;
+    background-color: khaki;
+    flex-direction: column;
+    border-width: -5px;
+    text-align: right;
+}
+
+
+
+/* HÄR FINNS ALLA SIFFOR / TANGENTER */
+#keyboard {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+/* HÄR FIXAS KNAPPARNA */
+#btn {
+    display: flex;
+    width: 60px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-width: -5px;
+    font-weight: bold;
+    font-size: 12px;
+   
+}
