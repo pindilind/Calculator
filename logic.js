@@ -16,9 +16,7 @@ function op_key(event) {
             inputElement.value = input + option
         }
 
-
     }
-
 }
 
 /* funktion för nummber knapparna */
